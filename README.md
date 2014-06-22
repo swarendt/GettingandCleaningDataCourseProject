@@ -9,7 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 This data should be extracted without modifications to the directory structure and placed into your working directory for R.  If the directory structure from the data is modified, the script will not be able to read in the data.
 
-After the data is downloaded, you can execute the R script run_analysis.R on the data set.
+After the data is downloaded, you can execute the R script run_analysis.R on the data set.  The only script is run_analysis.R to produce the final results.
 
 The script expects to find a subdirectory of UCI HAR Dataset containing the data files.
 
