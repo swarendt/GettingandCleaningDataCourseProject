@@ -3,6 +3,7 @@ For Getting and Cleaning Data Course Project
 
 The following packages are required for running the script:
 plyr
+sqldf
 
 This script assumes that the data has been extracted into a directory names "UCI HAR Dataset" situated in the
 working directory.  This would be the default directory name when the data is extracted from the zip file.
@@ -28,3 +29,5 @@ match the features labels.  I would call this data set tidy and complete and it 
 from.
 
 However, this data set includes more data than we need.  It is my understanding that we want to work with the data that contains results of mean and standard deviations.  I create a vector of columns needed by using the grep function to find column names that include "std" and "mean".  I then use the vector to extract a new data frame (tidy_data) that includes only  those columns.
+
+Finally, using that tidy_data data frame, I apply a sqldf function to find the average of all of the standard deviation data and mean data, grouping the results by subject and activity.
