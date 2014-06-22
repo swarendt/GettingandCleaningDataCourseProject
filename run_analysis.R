@@ -1,6 +1,6 @@
 ## You should create one R script called run_analysis.R that does the following. 
 
-## The should be located in the directory /UCI HAR Dataset, from there, the
+## The data should be located in the directory /UCI HAR Dataset, from there, the
 ## training data is found in the /Train subdirectory
 ## and the test data is in the /Test subdirectory
 setwd("UCI HAR Dataset")
