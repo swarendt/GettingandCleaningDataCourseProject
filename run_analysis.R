@@ -100,7 +100,7 @@ tidy_data_output <- sqldf("select subject, activity
   from tidy_data group by subject, activity") 
 
 ##Write the file out
-write.table(tidy_data_output, "tidydata.txt", row.names = FALSE, sep = ",")
+write.table(tidy_data_output, "tidydata.csv", row.names = FALSE, sep = ",")
 
 ##And output the final results for good measure.
 tidy_data_output
