@@ -13,4 +13,4 @@ After the data is downloaded, you can execute the R script run_analysis.R on the
 
 The script expects to find a subdirectory of UCI HAR Dataset containing the data files.
 
-The output of run_analysis.R is a CSV file named tidydata.csv which contains the final data result set.
+The output of run_analysis.R is a CSV file named tidydata.csv which contains the final data result set.  It also displays the results to the console.
